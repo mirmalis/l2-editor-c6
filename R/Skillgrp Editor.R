@@ -1,4 +1,8 @@
 all_as_buffs <- FALSE
+cat_available_at_buffer <- FALSE
+show_cov <- FALSE
+change_buff_icons_to_wc_ol_icons <- TRUE
+ol_patch <- FALSE
 # Input: skillgrp.txt
 # Output: skillgrp output.txt
 # 
@@ -16,27 +20,40 @@ setkey(merged, skill_id, skill_level)
 # flip all buffs <-> debuff
 merged[,extra_eff := as.numeric(!extra_eff)]
 if(all_as_buffs) merged[,extra_eff := 0]
+
 # keep important buffs as buffs.
 buff_to_stay_buffs <- c(
-     'Noblesse Blessing', 'Salvation', 'Soul of the Phoenix', 'Celestial Shield', 'Flames of Invincibility', 'Sonic Barrier', 'Force Barrier'
-    ,'Ultimate Evasion', 'Ultimate Defense', 'Vengeance',  'Touch of Life'
-    ,'Angelic Icon', 'Zealot', 'Frenzy', 'Guts'
-    , 'Aura Flare'
-    
-    ,'Block Buff','Arcane Power', 'Arcane Agility', 'Arcane Wisdom', 'Riposte Stance', 'Parry Stance', 'Transfer Pain'
-    ,'Gift of Seraphim', 'Blessing of Seraphim', 'Gift of Queen', 'Blessing of Queen'
-    ,'Blessing of Protection','Lesser Healing Potion','Healing Potion','Greater Healing Potion', 'Greater Heal', 'Greater Group Heal'
-    ,'Dash','Mirage'
-    ,'Duelist Spirit', 'War Cry', 'Rage', 'Focus Death', 'Focus Chance', 'Focus Power',  'Dead Eye',  'Rapid Fire','Snipe'
-    ,'Wolf Spirit Totem', 'Bear Spirit Totem', 'Puma Spirit Totem', 'Ogre Spirit Totem', 'Rabbit Spirit Totem', 'Bison Spirit Totem', 'Hawk Spirit Totem'
-    
-    ,'Lionheart' #,'Battle Roar', 'Thrill Fight'
-    ,'Vicious Stance', 'War Frenzy', 'Accuracy', 'Focus Attack', 'Polearm Accuracy', 'Silent Move', 'Fake Death', 'Guard Stance', 'Soul Guard', 'Soul Cry','Focus Skill Mastery'
-
-   # ,'Rapid Shot', 'Deflect Arrow', 'Majesty'
-   , 'Physical Mirror', 'Magical Mirror'
-    ,'Detect Animal Weakness', 'Detect Plant Weakness', 'Detect Beast Weakness', 'Eye of Slayer', 'Eye of Hunter'
+  'Noblesse Blessing', 'Spell Force', 'Invocation'
+  , 'Salvation', 'Soul of the Phoenix', 'Celestial Shield', 'Flames of Invincibility', 'Sonic Barrier', 'Force Barrier'
+  ,'Ultimate Evasion', 'Ultimate Defense', 'Vengeance',  'Touch of Life'
+  #, 'Physical Mirror', 'Magical Mirror'
+  #, 'Aura Flare'
+  #,'Arcane Agility', 'Arcane Wisdom', 'Riposte Stance', 'Parry Stance', 'Transfer Pain','Arcane Power'
+  
+  ,'Blessing of Protection','Lesser Healing Potion','Healing Potion','Greater Healing Potion', 'Greater Heal', 'Greater Group Heal'
+  ,'Dash','Mirage','Stealth', 'Counterattack', 'Dodge', 'Blinding Blow'
+  ,'Angelic Icon', 'Zealot', 'Frenzy', 'Guts'
+  ,'Duelist Spirit', 'War Cry', 'Rage', 'Focus Death', 'Focus Chance', 'Focus Power',  'Dead Eye',  'Rapid Fire','Snipe'
+  ,'Wolf Spirit Totem', 'Bear Spirit Totem', 'Puma Spirit Totem', 'Ogre Spirit Totem', 'Rabbit Spirit Totem', 'Bison Spirit Totem', 'Hawk Spirit Totem','Force Meditation'
+  ,'Detect Animal Weakness', 'Detect Plant Weakness', 'Detect Beast Weakness', 'Eye of Slayer', 'Eye of Hunter'
+  ,'Lionheart' 
+  #,'Battle Roar', 'Thrill Fight'
+  #,'Vicious Stance', 'War Frenzy', 'Accuracy', 'Focus Attack', 'Polearm Accuracy', 'Silent Move', 'Fake Death', 'Guard Stance', 'Soul Guard', 'Soul Cry','Focus Skill Mastery'
+  #,'Rapid Shot', 'Deflect Arrow', 'Majesty'
+  
+  ,'AntiBuff-Shield','Block Buff', 'Buff Block'
+  ,'Fear', 'Mass Fear', 'Punch of Doom'
 )
+if (cat_available_at_buffer){
+  buff_to_stay_buffs <- c(buff_to_stay_buffs,'Blessing of Seraphim') # mp regen horse
+  #buff_to_stay_buffs <- c(buff_to_stay_buffs,'Gift of Queen') # p.atk cat
+} else {
+  buff_to_stay_buffs <- c(buff_to_stay_buffs, 'Gift of Seraphim', 'Blessing of Queen')
+}
+if (show_cov){
+  buff_to_stay_buffs <- c(buff_to_stay_buffs,'Chant of Victory', 'Prophecy of Water', 'Prophecy of Fire', 'Prophecy of Wind', "Victory of Pa'agrio", "Magnus\' Chant")
+}
+
 merged[merged$name %in% buff_to_stay_buffs,]$extra_eff <- 0 # merged[merged$name %in% buff_to_stay_buffs,] %>% select(extra_eff, name)
 rm(buff_to_stay_buffs)
 ### HS debuff icons and and casting animations.
@@ -60,8 +77,8 @@ merged[name %in% c('Hot Springs Rheumatism', 'Hot Springs Cholera', 'Hot Springs
 merged[name %in% c('Hot Springs Rheumatism', 'Hot Springs Cholera', 'Hot Springs Flu', 'Hot Spring Malaria') & skill_level != 4, extra_eff := 1] # ne 4lv => debufai
 
 # Skill animation change
-animation <- list(  avatar = 'skill.mo.121'
-                  , none = '')
+animation <- list(avatar = 'skill.mo.121', aura_burn = 'skill.el.1172', none = '')
+
 merged[name == 'Major Group Heal', desc := animation$avatar]
 merged[name == 'Major Heal', desc := animation$avatar]
 merged[name == 'Greater Battle Heal', desc := animation$avatar]
@@ -71,13 +88,13 @@ merged[name == 'Seal of Mirage', desc := animation$none]
 merged[name == 'Seal of Chaos', desc := animation$none]
 merged[name == 'Seal of Scourge', desc := animation$none]
 merged[name == 'Seal of Flame', desc := animation$none]
-merged[name == 'Aura Flare', desc := 'skill.el.1172'] # aura burn animation
+merged[name == 'Aura Flare', desc := animation$aura_burn] # aura burn animation
 
 merged[name == 'Guts', desc := 'skill.hero.395'] # Hero ud animation
 merged[name == 'Frenzy', desc := 'skill.mu.4365']             # Hero bers animation
 merged[name == 'Bison Spirit Totem', desc := 'skill.mu.4365'] # Hero bers animation
 merged[name == 'Snipe', desc := 'skill.mu.4365']              # Hero bers animation
-merged[name == 'Zealot', desc := 'skill.hero.396'] # Angelic Icon animation
+merged[name == 'Zealot', desc := 'skill.hero.396']            # Angelic Icon animation
 
 merged[name == 'Item Skill: Celestial Shield', desc := 'skill.moment.443'] # Celestial shield animation
 merged[name == 'Sonic Barrier', desc := 'skill.moment.443'] # Celestial shield animation
@@ -183,16 +200,39 @@ merged[skill_id == 4278, icon_name := 'icon.skill0070'] # skill <dark attack>.ic
 
 
 # PRP bufu ikonos pakeistos i atitinkamu ol bufu ikonas
-merged[]
+if (change_buff_icons_to_wc_ol_icons){
+  merged[skill_id == 1085, icon_name := 'icon.skill1004'] # Acumen
+  merged[skill_id == 1059, icon_name := 'icon.skill1365'] # Empower
+  merged[skill_id == 1062 & skill_level >= 2, icon_name := 'icon.skill1261'] # Berserker Spirit # bers1 paliekam ta pacia ikona.
+  merged[skill_id == 1204, icon_name := 'icon.skill1282'] # Wind Walk
+  merged[skill_id == 1036, icon_name := 'icon.skill1008'] # Magic Barrier
+  merged[skill_id == 1040 & skill_level >= 3, icon_name := 'icon.skill1005'] # Shield
+  merged[skill_id == 1389, icon_name := 'icon.skill1391'] # Greater Shield
+  
+  merged[skill_id == 1388, icon_name := 'icon.skill1390'] # Greater Might
+  merged[skill_id == 1268, icon_name := 'icon.skill1310'] # Vampiric Rage
+  merged[skill_id == 1068, icon_name := 'icon.skill1007'] # Might
+  merged[skill_id == 1086, icon_name := 'icon.skill1251'] # Haste
+  merged[skill_id == 1077, icon_name := 'icon.skill1308'] # Focus
+  merged[skill_id == 1242, icon_name := 'icon.skill1253'] # Death Whisper
+}
 
-merged[name == 'Might' & skill_level == 1]
+# ol_patch
+if (ol_patch){
+  acumen_empower_bufai <- c(
+    c('Acumen', "The Wisdom of Pa'agrio", 'Scroll of Greater Acumen', 'Magic Haste Potion', "Herb of Casting Spd.", "Scrol of Acumen - Event Use", "Acumen for Beginners", "Acumen", "Pet Acumen", "Golden Pig Acumen", "Master's Blessing - Acumen")
+    ,c('Empower', 'Greater Empower', 'Bright Servitor', "The Soul of Pa'agrio", 'Scroll of Mystic Empower', 'Herb of Magic', 'Scroll of Empower - Event Use','Empower for Beginners','Holiday Empower', "Master's Blessing - Empower")
+    ,c('Sprint', 'Wind Walk', "Pa'agrian Haste", "Haste Potion", "Greater Haste Potion", "Scroll of Wind Walk", "Herb of Speed", "Scroll of Wind Walk - Event Use", "Wind Walk for Beginners", "Pet Wind Walk", "Master's Blessing - Wind Walk")
+  )
+  merged[merged$name %in% acumen_empower_bufai,]$extra_eff <- 0 # merged[merged$name %in% buff_to_stay_buffs,] %>% select(extra_eff, name)
+  rm(acumen_empower_bufai)
+}
+# _output skillgrp.txt
+merged %>% select(-name) %>%
+  #write.table(file = "C:\\Users\\sarun_000\\Desktop 3\\skillgrp output.txt", quote = FALSE, col.names = FALSE, row.names = FALSE, sep = '\t', na = '')
+  write.table(file = "_output skillgrp.txt", quote = FALSE, col.names = FALSE, row.names = FALSE, sep = '\t', na = '')
 
-#   TBD:
-# suvienodint ol ir prp bufu ikonas
+#TBD:
 #
 # corect writing to file ? maybe done ?
 
-# skillgrp output.txt
-merged %>% select(-name) %>%
-#write.table(file = "C:\\Users\\sarun_000\\Desktop 3\\skillgrp output.txt", quote = FALSE, col.names = FALSE, row.names = FALSE, sep = '\t', na = '')
-write.table(file = "skillgrp output.txt", quote = FALSE, col.names = FALSE, row.names = FALSE, sep = '\t', na = '')

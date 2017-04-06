@@ -1094,7 +1094,6 @@ skill_id	skill_level	oper_type	mp_consume	cast_range	cast_style	hit_time	is_magi
 146	43	2	0	-1	0	0.000000	0			icon.skill0146	0	0	0	0	-1	-1
 146	44	2	0	-1	0	0.000000	0			icon.skill0146	0	0	0	0	-1	-1
 146	45	2	0	-1	0	0.000000	0			icon.skill0146	0	0	0	0	-1	-1
-146	46	2	0	-1	0	0.000000	0			icon.skill0146	0	0	0	0	-1	-1
 147	1	2	0	-1	0	0.000000	0			icon.skill0147	0	0	0	0	-1	-1
 147	2	2	0	-1	0	0.000000	0			icon.skill0147	0	0	0	0	-1	-1
 147	3	2	0	-1	0	0.000000	0			icon.skill0147	0	0	0	0	-1	-1
@@ -10078,7 +10077,6 @@ skill_id	skill_level	oper_type	mp_consume	cast_range	cast_style	hit_time	is_magi
 263	169	0	39	40	3	1.080000	0	V	skill.at.263	icon.skill0263	0	1	37	0	9	11
 263	170	0	38	40	3	1.080000	0	V	skill.at.263	icon.skill0263	0	1	37	0	9	11
 264	1	1	60	-1	1	2.500000	3	W	skill.phenomenon.264	icon.skill0264	0	0	0	0	8	10
-264	2	1	60	-1	1	2.500000	3	W	skill.phenomenon.264	icon.skill0264	0	0	0	0	8	10
 264	101	1	60	-1	1	2.500000	3	W	skill.phenomenon.264	icon.skill0264	0	1	1	0	8	10
 264	102	1	60	-1	1	2.500000	3	W	skill.phenomenon.264	icon.skill0264	0	1	1	0	8	10
 264	103	1	60	-1	1	2.500000	3	W	skill.phenomenon.264	icon.skill0264	0	1	1	0	8	10
@@ -10140,7 +10138,6 @@ skill_id	skill_level	oper_type	mp_consume	cast_range	cast_style	hit_time	is_magi
 264	169	1	24	-1	1	2.500000	3	W	skill.phenomenon.264	icon.skill0264	0	1	1	0	8	10
 264	170	1	22	-1	1	2.500000	3	W	skill.phenomenon.264	icon.skill0264	0	1	1	0	8	10
 265	1	1	60	-1	1	2.500000	3	W	skill.phenomenon.265	icon.skill0265	0	0	0	0	8	10
-265	2	1	60	-1	1	2.500000	3	W	skill.phenomenon.265	icon.skill0265	0	0	0	0	8	10
 265	101	1	60	-1	1	2.500000	3	W	skill.phenomenon.265	icon.skill0265	0	1	1	0	8	10
 265	102	1	60	-1	1	2.500000	3	W	skill.phenomenon.265	icon.skill0265	0	1	1	0	8	10
 265	103	1	60	-1	1	2.500000	3	W	skill.phenomenon.265	icon.skill0265	0	1	1	0	8	10
@@ -10202,7 +10199,6 @@ skill_id	skill_level	oper_type	mp_consume	cast_range	cast_style	hit_time	is_magi
 265	169	1	24	-1	1	2.500000	3	W	skill.phenomenon.265	icon.skill0265	0	1	1	0	8	10
 265	170	1	22	-1	1	2.500000	3	W	skill.phenomenon.265	icon.skill0265	0	1	1	0	8	10
 266	1	1	60	-1	1	2.500000	3	W		icon.skill0266	0	0	0	0	8	10
-266	2	1	60	-1	1	2.500000	3	W		icon.skill0266	0	0	0	0	8	10
 266	101	1	60	-1	1	2.500000	3	W		icon.skill0266	0	1	1	0	8	10
 266	102	1	60	-1	1	2.500000	3	W		icon.skill0266	0	1	1	0	8	10
 266	103	1	60	-1	1	2.500000	3	W		icon.skill0266	0	1	1	0	8	10
@@ -10264,7 +10260,6 @@ skill_id	skill_level	oper_type	mp_consume	cast_range	cast_style	hit_time	is_magi
 266	169	1	24	-1	1	2.500000	3	W		icon.skill0266	0	1	1	0	8	10
 266	170	1	22	-1	1	2.500000	3	W		icon.skill0266	0	1	1	0	8	10
 267	1	1	60	-1	1	2.500000	3	W	skill.phenomenon.267	icon.skill0267	0	0	0	0	8	10
-267	2	1	60	-1	1	2.500000	3	W	skill.phenomenon.267	icon.skill0267	0	0	0	0	8	10
 267	101	1	60	-1	1	2.500000	3	W	skill.phenomenon.267	icon.skill0267	0	1	1	0	8	10
 267	102	1	60	-1	1	2.500000	3	W	skill.phenomenon.267	icon.skill0267	0	1	1	0	8	10
 267	103	1	60	-1	1	2.500000	3	W	skill.phenomenon.267	icon.skill0267	0	1	1	0	8	10
@@ -10326,7 +10321,6 @@ skill_id	skill_level	oper_type	mp_consume	cast_range	cast_style	hit_time	is_magi
 267	169	1	24	-1	1	2.500000	3	W	skill.phenomenon.267	icon.skill0267	0	1	1	0	8	10
 267	170	1	22	-1	1	2.500000	3	W	skill.phenomenon.267	icon.skill0267	0	1	1	0	8	10
 268	1	1	60	-1	1	2.500000	3	W	skill.phenomenon.268	icon.skill0268	0	0	0	0	8	10
-268	2	1	60	-1	1	2.500000	3	W	skill.phenomenon.268	icon.skill0268	0	0	0	0	8	10
 268	101	1	60	-1	1	2.500000	3	W	skill.phenomenon.268	icon.skill0268	0	1	1	0	8	10
 268	102	1	60	-1	1	2.500000	3	W	skill.phenomenon.268	icon.skill0268	0	1	1	0	8	10
 268	103	1	60	-1	1	2.500000	3	W	skill.phenomenon.268	icon.skill0268	0	1	1	0	8	10
@@ -10388,7 +10382,6 @@ skill_id	skill_level	oper_type	mp_consume	cast_range	cast_style	hit_time	is_magi
 268	169	1	24	-1	1	2.500000	3	W	skill.phenomenon.268	icon.skill0268	0	1	1	0	8	10
 268	170	1	22	-1	1	2.500000	3	W	skill.phenomenon.268	icon.skill0268	0	1	1	0	8	10
 269	1	1	60	-1	1	2.500000	3	W	skill.phenomenon.269	icon.skill0269	0	0	0	0	8	10
-269	2	1	60	-1	1	2.500000	3	W	skill.phenomenon.269	icon.skill0269	0	0	0	0	8	10
 269	101	1	60	-1	1	2.500000	3	W	skill.phenomenon.269	icon.skill0269	0	1	1	0	8	10
 269	102	1	60	-1	1	2.500000	3	W	skill.phenomenon.269	icon.skill0269	0	1	1	0	8	10
 269	103	1	60	-1	1	2.500000	3	W	skill.phenomenon.269	icon.skill0269	0	1	1	0	8	10
@@ -10450,7 +10443,6 @@ skill_id	skill_level	oper_type	mp_consume	cast_range	cast_style	hit_time	is_magi
 269	169	1	24	-1	1	2.500000	3	W	skill.phenomenon.269	icon.skill0269	0	1	1	0	8	10
 269	170	1	22	-1	1	2.500000	3	W	skill.phenomenon.269	icon.skill0269	0	1	1	0	8	10
 270	1	1	60	-1	1	2.500000	3	W	skill.phenomenon.270	icon.skill0270	0	0	0	0	8	10
-270	2	1	60	-1	1	2.500000	3	W	skill.phenomenon.270	icon.skill0270	0	0	0	0	8	10
 270	101	1	60	-1	1	2.500000	3	W	skill.phenomenon.270	icon.skill0270	0	1	1	0	8	10
 270	102	1	60	-1	1	2.500000	3	W	skill.phenomenon.270	icon.skill0270	0	1	1	0	8	10
 270	103	1	60	-1	1	2.500000	3	W	skill.phenomenon.270	icon.skill0270	0	1	1	0	8	10
@@ -10512,7 +10504,6 @@ skill_id	skill_level	oper_type	mp_consume	cast_range	cast_style	hit_time	is_magi
 270	169	1	24	-1	1	2.500000	3	W	skill.phenomenon.270	icon.skill0270	0	1	1	0	8	10
 270	170	1	22	-1	1	2.500000	3	W	skill.phenomenon.270	icon.skill0270	0	1	1	0	8	10
 271	1	1	60	-1	1	2.500000	3	N	skill.phenomenon.271	icon.skill0271	0	0	0	0	8	10
-271	2	1	60	-1	1	2.500000	3	N	skill.phenomenon.271	icon.skill0271	0	0	0	0	8	10
 271	101	1	60	-1	1	2.500000	3	N	skill.phenomenon.271	icon.skill0271	0	1	1	0	8	10
 271	102	1	60	-1	1	2.500000	3	N	skill.phenomenon.271	icon.skill0271	0	1	1	0	8	10
 271	103	1	60	-1	1	2.500000	3	N	skill.phenomenon.271	icon.skill0271	0	1	1	0	8	10
@@ -10574,7 +10565,6 @@ skill_id	skill_level	oper_type	mp_consume	cast_range	cast_style	hit_time	is_magi
 271	169	1	24	-1	1	2.500000	3	N	skill.phenomenon.271	icon.skill0271	0	1	1	0	8	10
 271	170	1	22	-1	1	2.500000	3	N	skill.phenomenon.271	icon.skill0271	0	1	1	0	8	10
 272	1	1	60	-1	1	2.500000	3	N	skill.phenomenon.272	icon.skill0272	0	0	0	0	8	10
-272	2	1	60	-1	1	2.500000	3	N	skill.phenomenon.272	icon.skill0272	0	0	0	0	8	10
 272	101	1	60	-1	1	2.500000	3	N	skill.phenomenon.272	icon.skill0272	0	1	1	0	8	10
 272	102	1	60	-1	1	2.500000	3	N	skill.phenomenon.272	icon.skill0272	0	1	1	0	8	10
 272	103	1	60	-1	1	2.500000	3	N	skill.phenomenon.272	icon.skill0272	0	1	1	0	8	10
@@ -10636,7 +10626,6 @@ skill_id	skill_level	oper_type	mp_consume	cast_range	cast_style	hit_time	is_magi
 272	169	1	24	-1	1	2.500000	3	N	skill.phenomenon.272	icon.skill0272	0	1	1	0	8	10
 272	170	1	22	-1	1	2.500000	3	N	skill.phenomenon.272	icon.skill0272	0	1	1	0	8	10
 273	1	1	60	-1	1	2.500000	3	N	skill.phenomenon.273	icon.skill0273	0	0	0	0	8	10
-273	2	1	60	-1	1	2.500000	3	N	skill.phenomenon.273	icon.skill0273	0	0	0	0	8	10
 273	101	1	60	-1	1	2.500000	3	N	skill.phenomenon.273	icon.skill0273	0	1	1	0	8	10
 273	102	1	60	-1	1	2.500000	3	N	skill.phenomenon.273	icon.skill0273	0	1	1	0	8	10
 273	103	1	60	-1	1	2.500000	3	N	skill.phenomenon.273	icon.skill0273	0	1	1	0	8	10
@@ -10698,7 +10687,6 @@ skill_id	skill_level	oper_type	mp_consume	cast_range	cast_style	hit_time	is_magi
 273	169	1	24	-1	1	2.500000	3	N	skill.phenomenon.273	icon.skill0273	0	1	1	0	8	10
 273	170	1	22	-1	1	2.500000	3	N	skill.phenomenon.273	icon.skill0273	0	1	1	0	8	10
 274	1	1	60	-1	1	2.500000	3	N	skill.phenomenon.274	icon.skill0274	0	0	0	0	8	10
-274	2	1	60	-1	1	2.500000	3	N	skill.phenomenon.274	icon.skill0274	0	0	0	0	8	10
 274	101	1	60	-1	1	2.500000	3	N	skill.phenomenon.274	icon.skill0274	0	1	1	0	8	10
 274	102	1	60	-1	1	2.500000	3	N	skill.phenomenon.274	icon.skill0274	0	1	1	0	8	10
 274	103	1	60	-1	1	2.500000	3	N	skill.phenomenon.274	icon.skill0274	0	1	1	0	8	10
@@ -10760,7 +10748,6 @@ skill_id	skill_level	oper_type	mp_consume	cast_range	cast_style	hit_time	is_magi
 274	169	1	24	-1	1	2.500000	3	N	skill.phenomenon.274	icon.skill0274	0	1	1	0	8	10
 274	170	1	22	-1	1	2.500000	3	N	skill.phenomenon.274	icon.skill0274	0	1	1	0	8	10
 275	1	1	60	-1	1	2.500000	3	N	skill.phenomenon.275	icon.skill0275	0	0	0	0	8	10
-275	2	1	60	-1	1	2.500000	3	N	skill.phenomenon.275	icon.skill0275	0	0	0	0	8	10
 275	101	1	60	-1	1	2.500000	3	N	skill.phenomenon.275	icon.skill0275	0	1	1	0	8	10
 275	102	1	60	-1	1	2.500000	3	N	skill.phenomenon.275	icon.skill0275	0	1	1	0	8	10
 275	103	1	60	-1	1	2.500000	3	N	skill.phenomenon.275	icon.skill0275	0	1	1	0	8	10
@@ -10822,7 +10809,6 @@ skill_id	skill_level	oper_type	mp_consume	cast_range	cast_style	hit_time	is_magi
 275	169	1	24	-1	1	2.500000	3	N	skill.phenomenon.275	icon.skill0275	0	1	1	0	8	10
 275	170	1	22	-1	1	2.500000	3	N	skill.phenomenon.275	icon.skill0275	0	1	1	0	8	10
 276	1	1	60	-1	1	2.500000	3	N	skill.phenomenon.276	icon.skill0276	0	0	0	0	8	10
-276	2	1	60	-1	1	2.500000	3	N	skill.phenomenon.276	icon.skill0276	0	0	0	0	8	10
 276	101	1	60	-1	1	2.500000	3	N	skill.phenomenon.276	icon.skill0276	0	1	1	0	8	10
 276	102	1	60	-1	1	2.500000	3	N	skill.phenomenon.276	icon.skill0276	0	1	1	0	8	10
 276	103	1	60	-1	1	2.500000	3	N	skill.phenomenon.276	icon.skill0276	0	1	1	0	8	10
@@ -10884,7 +10870,6 @@ skill_id	skill_level	oper_type	mp_consume	cast_range	cast_style	hit_time	is_magi
 276	169	1	24	-1	1	2.500000	3	N	skill.phenomenon.276	icon.skill0276	0	1	1	0	8	10
 276	170	1	22	-1	1	2.500000	3	N	skill.phenomenon.276	icon.skill0276	0	1	1	0	8	10
 277	1	1	60	-1	1	2.500000	3	N	skill.phenomenon.277	icon.skill0277	0	0	0	0	8	10
-277	2	1	60	-1	1	2.500000	3	N	skill.phenomenon.277	icon.skill0277	0	0	0	0	8	10
 277	101	1	60	-1	1	2.500000	3	N	skill.phenomenon.277	icon.skill0277	0	1	1	0	8	10
 277	102	1	60	-1	1	2.500000	3	N	skill.phenomenon.277	icon.skill0277	0	1	1	0	8	10
 277	103	1	60	-1	1	2.500000	3	N	skill.phenomenon.277	icon.skill0277	0	1	1	0	8	10
@@ -15787,7 +15772,7 @@ skill_id	skill_level	oper_type	mp_consume	cast_range	cast_style	hit_time	is_magi
 1269	169	1	50	600	1	4.000000	1	f		icon.skill1269	1	1	9	0	9	11
 1269	170	1	50	600	1	4.000000	1	f		icon.skill1269	1	1	9	0	9	11
 1271	1	0	214	-1	1	7.000000	1	G	skill.white.1218	icon.skill1271	0	0	0	0	8	10
-296	1	3	9	-1	0	0.000000	0			icon.skill1411	0	0	0	0	-1	-1
+296	1	3	9	-1	0	0.000000	0			icon.skill0296	0	0	0	0	-1	-1
 297	1	1	30	-1	1	1.500000	0	X	skill.mo.99	icon.skill0297	0	0	0	0	8	10
 297	2	1	34	-1	1	1.500000	0	X	skill.mo.99	icon.skill0297	0	0	0	0	8	10
 298	1	1	29	-1	1	2.000000	0	X	skill.mo.78	icon.skill0298	0	0	0	0	8	10
@@ -16362,7 +16347,6 @@ skill_id	skill_level	oper_type	mp_consume	cast_range	cast_style	hit_time	is_magi
 303	129	1	0	-1	1	2.000000	0	f	skill.mo.78	icon.skill0303	0	1	4	189	8	10
 303	130	1	0	-1	1	2.000000	0	f	skill.mo.78	icon.skill0303	0	1	4	183	8	10
 304	1	1	60	-1	1	2.500000	3	W		icon.skill0304	0	0	0	0	8	10
-304	2	1	60	-1	1	2.500000	3	W		icon.skill0304	0	0	0	0	8	10
 304	101	1	60	-1	1	2.500000	3	W		icon.skill0304	0	1	1	0	8	10
 304	102	1	60	-1	1	2.500000	3	W		icon.skill0304	0	1	1	0	8	10
 304	103	1	60	-1	1	2.500000	3	W		icon.skill0304	0	1	1	0	8	10
@@ -16729,7 +16713,6 @@ skill_id	skill_level	oper_type	mp_consume	cast_range	cast_style	hit_time	is_magi
 309	169	1	24	-1	1	2.500000	3	N		icon.skill0309	0	1	1	0	8	10
 309	170	1	22	-1	1	2.500000	3	N		icon.skill0309	0	1	1	0	8	10
 310	1	1	60	-1	1	2.500000	3	N		icon.skill0310	0	0	0	0	8	10
-310	2	1	60	-1	1	2.500000	3	N		icon.skill0310	0	0	0	0	8	10
 310	101	1	60	-1	1	2.500000	3	N		icon.skill0310	0	1	1	0	8	10
 310	102	1	60	-1	1	2.500000	3	N		icon.skill0310	0	1	1	0	8	10
 310	103	1	60	-1	1	2.500000	3	N		icon.skill0310	0	1	1	0	8	10
@@ -18563,7 +18546,6 @@ skill_id	skill_level	oper_type	mp_consume	cast_range	cast_style	hit_time	is_magi
 1361	1	1	107	-1	1	4.000000	1	f	skill.sp.1069	icon.skill1361	1	0	0	0	9	11
 1362	1	1	280	-1	1	2.500000	1	f		icon.skill1362	0	0	0	0	8	10
 1363	1	1	284	-1	1	2.500000	1	C		icon.skill1363	0	0	0	0	8	10
-1363	2	1	284	-1	1	2.500000	1	C		icon.skill1363	0	0	0	0	8	10
 1364	1	1	280	-1	1	2.500000	1	C		icon.skill1364	0	0	0	0	8	10
 1365	1	1	280	-1	1	2.500000	1	C		icon.skill1365	0	0	0	0	8	10
 1366	1	1	107	-1	1	4.000000	1	f		icon.skill1366	1	0	0	0	9	11
@@ -21143,13 +21125,6 @@ skill_id	skill_level	oper_type	mp_consume	cast_range	cast_style	hit_time	is_magi
 2319	1	1	0	-1	1	4.000000	0	D	skill.wh.1040	icon.etc_scroll_white_i00	0	0	0	0	8	10
 2320	1	0	0	-1	0	0.200000	0		skill.it.2178	icon.skill0000	0	0	0	0	-1	10
 2321	1	0	0	400	1	15.000000	0	D	skill.wh.1016	icon.skill0000	0	0	0	0	8	10
-2322	1	0	0	40	0	0.500000	0			icon.skill0000	0	0	0	0	-1	-1
-2323	1	0	0	-1	0	0.000000	0			icon.skill0000	0	0	0	0	-1	-1
-2324	1	0	0	-1	0	0.000000	0			icon.skill0000	0	0	0	0	-1	-1
-2325	1	0	0	-1	0	0.000000	0			icon.skill0000	0	0	0	0	-1	-1
-2326	1	0	0	-1	0	0.000000	0			icon.skill0000	0	0	0	0	-1	-1
-2327	1	0	0	-1	0	0.000000	0			icon.skill0000	0	0	0	0	-1	-1
-2328	1	0	0	-1	0	0.000000	0			icon.skill0000	0	0	0	0	-1	-1
 3001	1	2	0	-1	0	0.000000	0			icon.skill0000	0	0	0	0	-1	-1
 3002	1	2	0	-1	0	0.000000	0			icon.skill0000	0	0	0	0	-1	-1
 3003	1	2	0	-1	0	0.000000	0			icon.skill0000	0	0	0	0	-1	-1
@@ -23324,10 +23299,6 @@ skill_id	skill_level	oper_type	mp_consume	cast_range	cast_style	hit_time	is_magi
 3260	1	0	1	500	5	2.500000	0	S		icon.skill3260	0	0	0	0	9	11
 3261	1	0	1	500	5	2.500000	0	S		icon.skill3260	0	0	0	0	9	11
 3262	1	0	1	500	8	3.200000	0	t		icon.skill3260	0	0	0	0	9	11
-3263	1	0	0	400	1	15.000000	0	D	skill.wh.1016	icon.skill0000	0	0	0	0	8	10
-3264	1	0	0	-1	0	0.200000	0		skill.it.2177	icon.skill0000	0	0	0	0	-1	10
-3265	1	1	0	-1	0	0.000000	0			icon.skill0000	0	0	0	0	-1	-1
-3266	1	0	0	-1	0	0.000000	0			icon.skill0000	0	0	0	0	-1	-1
 7000	1	0	0	0	1	0.000000	0			icon.skill0000	0	0	0	0	-1	-1
 7001	1	0	0	400	1	0.000000	0			icon.skill0000	0	0	0	0	-1	-1
 7002	1	0	0	400	1	0.000000	0			icon.skill0000	0	0	0	0	-1	-1
@@ -25100,8 +25071,8 @@ skill_id	skill_level	oper_type	mp_consume	cast_range	cast_style	hit_time	is_magi
 4311	1	2	0	-1	0	0.000000	0			icon.skill4311	0	0	0	0	-1	-1
 4312	1	2	0	-1	0	0.000000	0			icon.skill4312	0	0	0	0	-1	-1
 4313	1	2	0	-1	0	0.000000	0			icon.skill4313	0	0	0	0	-1	-1
-4314	1	0	17	700	1	2.000000	0			icon.skill4313	0	0	0	0	-1	11
-4314	2	0	29	700	1	2.000000	0			icon.skill1355	0	0	0	0	-1	11
+4314	1	0	17	700	1	2.000000	0			icon.skill0000	0	0	0	0	-1	11
+4314	2	0	29	700	1	2.000000	0			icon.skill0000	0	0	0	0	-1	11
 4314	3	0	39	700	1	2.000000	0			icon.skill0000	0	0	0	0	-1	11
 4314	4	0	53	700	1	2.000000	0			icon.skill0000	0	0	0	0	-1	11
 4314	5	0	67	700	1	2.000000	0			icon.skill0000	0	0	0	0	-1	11
@@ -25111,7 +25082,7 @@ skill_id	skill_level	oper_type	mp_consume	cast_range	cast_style	hit_time	is_magi
 4314	9	0	108	700	1	2.000000	0			icon.skill0000	0	0	0	0	-1	11
 4314	10	0	112	700	1	2.000000	0			icon.skill0000	0	0	0	0	-1	11
 4314	11	0	115	700	1	2.000000	0			icon.skill0000	0	0	0	0	-1	11
-4314	12	0	350	-1	1	2.000000	0	X	skill.mu.4314	Sublimity.heavens_angel	0	0	0	0	-1	11
+4314	12	0	116	700	1	2.000000	0			icon.skill0000	0	0	0	0	-1	11
 4315	1	1	17	700	1	2.500000	0			icon.skill1201	1	0	0	0	-1	11
 4315	2	1	29	700	1	2.500000	0			icon.skill1201	1	0	0	0	-1	11
 4315	3	1	39	700	1	2.500000	0			icon.skill1201	1	0	0	0	-1	11
@@ -25135,7 +25106,7 @@ skill_id	skill_level	oper_type	mp_consume	cast_range	cast_style	hit_time	is_magi
 4316	9	0	195	750	1	2.500000	0		skill.mu.4316	icon.skill0000	0	0	0	0	-1	11
 4316	10	0	202	750	1	2.500000	0		skill.mu.4316	icon.skill0000	0	0	0	0	-1	11
 4316	11	0	206	750	1	2.500000	0		skill.mu.4316	icon.skill0000	0	0	0	0	-1	11
-4316	12	0	350	-1	1	2.000000	0	X	skill.mu.4316	Sublimity.hells_demon	0	0	0	0	-1	11
+4316	12	0	209	750	1	2.500000	0		skill.mu.4316	icon.skill0000	0	0	0	0	-1	11
 4317	1	1	50	-1	1	1.800000	0		skill.mo.78	icon.skill0000	0	0	0	0	-1	-1
 4317	2	1	50	-1	1	1.800000	0		skill.mo.78	icon.skill0000	0	0	0	0	-1	-1
 4317	3	1	50	-1	1	1.800000	0		skill.mo.78	icon.skill0000	0	0	0	0	-1	-1
@@ -28644,7 +28615,7 @@ skill_id	skill_level	oper_type	mp_consume	cast_range	cast_style	hit_time	is_magi
 4483	10	1	150	-1	1	3.300000	1		skill.el.1184	icon.skill4047	1	0	0	0	-1	11
 4483	11	1	153	-1	1	3.300000	1		skill.el.1184	icon.skill4047	1	0	0	0	-1	11
 4483	12	1	155	-1	1	3.300000	1		skill.el.1184	icon.skill4047	1	0	0	0	-1	11
-4484	1	0	0	600	1	3.000000	0		skill.wh.1217	icon.skill0000	0	0	0	0	-1	-1
+4484	1	0	0	600	1	0.100000	0		skill.wh.1217	icon.skill0000	0	0	0	0	-1	-1
 4485	1	0	0	40	1	3.000000	0		skill.mo.4	icon.skill0000	0	0	0	0	-1	-1
 4486	1	1	24	600	1	1.200000	1		skill.su.1069	icon.skill0000	1	0	0	0	-1	11
 4486	2	1	39	600	1	1.200000	1		skill.su.1069	icon.skill0000	1	0	0	0	-1	11
@@ -28670,18 +28641,18 @@ skill_id	skill_level	oper_type	mp_consume	cast_range	cast_style	hit_time	is_magi
 4487	10	1	150	600	1	1.200000	1		skill.su.1069	icon.skill0000	1	0	0	0	-1	11
 4487	11	1	153	600	1	1.200000	1		skill.su.1069	icon.skill0000	1	0	0	0	-1	11
 4487	12	1	155	600	1	1.200000	1		skill.su.1069	icon.skill0000	1	0	0	0	-1	11
-4488	1	1	21	-1	1	0.000000	0		skill.mm.4143	icon.skill1201	1	0	0	0	-1	11
-4488	2	1	33	-1	1	0.000000	0		skill.mm.4143	icon.skill1201	1	0	0	0	-1	11
-4488	3	1	47	-1	1	0.000000	0		skill.mm.4143	icon.skill1201	1	0	0	0	-1	11
-4488	4	1	64	-1	1	0.000000	0		skill.mm.4143	icon.skill1201	1	0	0	0	-1	11
-4488	5	1	82	-1	1	0.000000	0		skill.mm.4143	icon.skill1201	1	0	0	0	-1	11
-4488	6	1	101	-1	1	0.000000	0		skill.mm.4143	icon.skill1201	1	0	0	0	-1	11
-4488	7	1	118	-1	1	0.000000	0		skill.mm.4143	icon.skill1201	1	0	0	0	-1	11
-4488	8	1	126	-1	1	0.000000	0		skill.mm.4143	icon.skill1201	1	0	0	0	-1	11
-4488	9	1	133	-1	1	0.000000	0		skill.mm.4143	icon.skill1201	1	0	0	0	-1	11
-4488	10	1	137	-1	1	0.000000	0		skill.mm.4143	icon.skill1201	0	0	0	0	-1	11
-4488	11	1	140	-1	1	0.000000	0		skill.mm.4143	icon.skill1201	0	0	0	0	-1	11
-4488	12	1	142	-1	1	0.000000	0		skill.mm.4143	icon.skill1201	0	0	0	0	-1	11
+4488	1	1	21	-1	1	0.000000	0		skill.mm.4143	icon.skill0000	1	0	0	0	-1	11
+4488	2	1	33	-1	1	0.000000	0		skill.mm.4143	icon.skill0000	1	0	0	0	-1	11
+4488	3	1	47	-1	1	0.000000	0		skill.mm.4143	icon.skill0000	1	0	0	0	-1	11
+4488	4	1	64	-1	1	0.000000	0		skill.mm.4143	icon.skill0000	1	0	0	0	-1	11
+4488	5	1	82	-1	1	0.000000	0		skill.mm.4143	icon.skill0000	1	0	0	0	-1	11
+4488	6	1	101	-1	1	0.000000	0		skill.mm.4143	icon.skill0000	1	0	0	0	-1	11
+4488	7	1	118	-1	1	0.000000	0		skill.mm.4143	icon.skill0000	1	0	0	0	-1	11
+4488	8	1	126	-1	1	0.000000	0		skill.mm.4143	icon.skill0000	1	0	0	0	-1	11
+4488	9	1	133	-1	1	0.000000	0		skill.mm.4143	icon.skill0000	1	0	0	0	-1	11
+4488	10	1	137	-1	1	0.000000	0		skill.mm.4143	icon.skill0000	0	0	0	0	-1	11
+4488	11	1	140	-1	1	0.000000	0		skill.mm.4143	icon.skill0000	0	0	0	0	-1	11
+4488	12	1	142	-1	1	0.000000	0		skill.mm.4143	icon.skill0000	0	0	0	0	-1	11
 4489	1	0	21	-1	1	0.000000	0		skill.mm.4143	icon.skill0000	0	0	0	0	-1	11
 4489	2	0	33	-1	1	0.000000	0		skill.mm.4143	icon.skill0000	0	0	0	0	-1	11
 4489	3	0	47	-1	1	0.000000	0		skill.mm.4143	icon.skill0000	0	0	0	0	-1	11
@@ -29310,9 +29281,9 @@ skill_id	skill_level	oper_type	mp_consume	cast_range	cast_style	hit_time	is_magi
 5097	1	0	0	-1	1	0.100000	0		skill.mb.5097	icon.skill0000	0	0	0	0	-1	11
 5098	1	1	0	-1	1	0.000000	0		skill.mo.78	icon.skill0000	0	0	0	0	8	10
 5098	2	1	0	-1	1	0.000000	0		skill.mo.78	icon.skill0000	0	0	0	0	8	10
-5099	1	0	2	-1	1	2.000000	1		skill.mo.86	icon.skill0000	0	0	0	0	8	10
-5100	1	0	2	-1	1	2.000000	1		skill.mo.78	icon.skill0000	0	0	0	0	8	10
-5101	1	0	2	-1	1	2.000000	1		skill.el.1264	icon.skill0000	0	0	0	0	8	10
+5099	1	0	2	-1	1	4.000000	1			icon.skill0000	0	0	0	0	8	10
+5100	1	0	2	-1	1	4.000000	1			icon.skill0000	0	0	0	0	8	10
+5101	1	0	2	-1	1	4.000000	1			icon.skill0000	0	0	0	0	8	10
 5102	1	0	2	-1	1	4.000000	1			icon.skill0000	0	0	0	0	8	10
 5103	1	0	0	600	0	1.000000	0		skill.deco.5103	icon.skill0000	0	0	0	0	-1	11
 5104	1	1	0	-1	1	0.000000	0			icon.skill0426	0	0	0	0	-1	10
@@ -29828,32 +29799,239 @@ skill_id	skill_level	oper_type	mp_consume	cast_range	cast_style	hit_time	is_magi
 7061	1	1	2	400	1	0.500000	1	f	skill.sp.1356	icon.skill1355	0	0	0	0	8	10
 7062	1	1	2	400	1	0.500000	1	f	skill.sp.1356	icon.skill1356	0	0	0	0	8	10
 7063	1	1	2	400	1	0.500000	1	f	skill.sp.1356	icon.skill1357	0	0	0	0	8	10
-7064	1	1	2	400	1	0.500000	1	C		icon.skill1363	0	0	0	0	8	10
-9997	1	2	0	-1	0	0.000000	0			icon.skill0231	0	0	0	0	-1	-1
-9998	1	2	0	-1	0	0.000000	0			icon.skill0233	0	0	0	0	-1	-1
-9999	1	2	0	-1	0	0.000000	0			icon.skill0234	0	0	0	0	-1	-1
-10001	1	1	0	-1	0	0.000000	0		skill.it.2011	icon.etc_potion_blue_i00	0	0	0	0	-1	10
-10010	1	3	1	-1	0	0.000000	0			abyss.block_buff_i00	0	0	0	0	-1	-1
-10011	1	3	1	-1	0	0.000000	0			icon.skill1405	0	0	0	0	-1	-1
-10012	1	3	1	-1	0	0.000000	0			icon.skill0150	0	0	0	0	-1	-1
-10013	1	1	0	-1	1	1.000000	0	X	skill.wh.1043	icon.skill0405	0	0	0	0	9	11
-10024	1	0	44	600	1	6.000000	1	G		icon.skill1056	0	0	0	0	9	11
-10026	1	2	1	-1	0	0.000000	0			icon.skill0150	0	0	0	0	-1	-1
-10029	1	2	0	-1	0	0.000000	0			icon.skill3238	0	0	0	0	-1	-1
-10030	1	1	0	-1	1	1.000000	0	X	skill.wh.1043	icon.skill0332	0	0	0	0	9	11
-10031	1	2	0	-1	0	0.000000	0			abyss.vip_rune_i00	0	0	0	0	-1	-1
-10031	2	2	0	-1	0	0.000000	0			abyss.vip_rune_i00	0	0	0	0	-1	-1
-10031	3	2	0	-1	0	0.000000	0			abyss.vip_rune_i00	0	0	0	0	-1	-1
-10032	1	2	0	-1	0	0.000000	0			icon.skill0423	0	0	0	0	-1	-1
-10032	2	2	0	-1	0	0.000000	0			icon.skill0423	0	0	0	0	-1	-1
-10032	3	2	0	-1	0	0.000000	0			icon.skill0423	0	0	0	0	-1	-1
-10032	4	2	0	-1	0	0.000000	0			icon.skill0423	0	0	0	0	-1	-1
-10032	5	2	0	-1	0	0.000000	0			icon.skill0423	0	0	0	0	-1	-1
-10036	1	1	10	400	1	4.000000	1	D		icon.skill1068	0	0	0	0	8	10
-10036	2	1	10	400	1	4.000000	1	D		icon.skill1068	0	0	0	0	8	10
-10036	3	1	10	400	1	4.000000	1	D		icon.skill1068	0	0	0	0	8	10
-10036	4	1	10	400	1	4.000000	1	D		icon.skill1068	0	0	0	0	8	10
-10037	1	0	0	-1	0	0.200000	0		skill.it.2177	icon.skill0000	0	0	0	0	-1	10
-10038	1	0	0	-1	0	0.200000	0		skill.it.2177	icon.skill0000	0	0	0	0	-1	10
-10039	1	1	0	400	0	0.000000	1		skill.mu.4326	icon.skill1331	0	0	0	0	-1	10
-10040	1	1	0	400	0	0.000000	1		skill.mu.4326	icon.skill1332	0	0	0	0	-1	10
+7064	1	1	2	-1	1	2.500000	1	C		icon.skill1363	0	0	0	0	8	10
+9007	1	0	5	50	6	30.000000	0	D		icon.skill0246	0	0	0	0	8	-1
+9100	1	2	0	-1	0	0.000000	0			icon.skill1059	0	0	0	0	-1	-1
+9100	2	2	0	-1	0	0.000000	0			icon.skill1059	0	0	0	0	-1	-1
+9100	3	2	0	-1	0	0.000000	0			icon.skill1059	0	0	0	0	-1	-1
+9100	4	2	0	-1	0	0.000000	0			icon.skill1059	0	0	0	0	-1	-1
+9100	5	2	0	-1	0	0.000000	0			icon.skill1059	0	0	0	0	-1	-1
+9100	6	2	0	-1	0	0.000000	0			icon.skill1059	0	0	0	0	-1	-1
+9100	7	2	0	-1	0	0.000000	0			icon.skill1059	0	0	0	0	-1	-1
+9100	8	2	0	-1	0	0.000000	0			icon.skill1059	0	0	0	0	-1	-1
+9100	9	2	0	-1	0	0.000000	0			icon.skill1059	0	0	0	0	-1	-1
+9100	10	2	0	-1	0	0.000000	0			icon.skill1059	0	0	0	0	-1	-1
+9100	11	2	0	-1	0	0.000000	0			icon.skill1059	0	0	0	0	-1	-1
+9100	12	2	0	-1	0	0.000000	0			icon.skill1059	0	0	0	0	-1	-1
+9100	13	2	0	-1	0	0.000000	0			icon.skill1059	0	0	0	0	-1	-1
+9100	14	2	0	-1	0	0.000000	0			icon.skill1059	0	0	0	0	-1	-1
+9100	15	2	0	-1	0	0.000000	0			icon.skill1059	0	0	0	0	-1	-1
+9100	16	2	0	-1	0	0.000000	0			icon.skill1059	0	0	0	0	-1	-1
+9100	17	2	0	-1	0	0.000000	0			icon.skill1059	0	0	0	0	-1	-1
+9100	18	2	0	-1	0	0.000000	0			icon.skill1059	0	0	0	0	-1	-1
+9100	19	2	0	-1	0	0.000000	0			icon.skill1059	0	0	0	0	-1	-1
+9100	20	2	0	-1	0	0.000000	0			icon.skill1059	0	0	0	0	-1	-1
+9101	1	2	0	-1	0	0.000000	0			icon.skill1068	0	0	0	0	-1	-1
+9101	2	2	0	-1	0	0.000000	0			icon.skill1068	0	0	0	0	-1	-1
+9101	3	2	0	-1	0	0.000000	0			icon.skill1068	0	0	0	0	-1	-1
+9101	4	2	0	-1	0	0.000000	0			icon.skill1068	0	0	0	0	-1	-1
+9101	5	2	0	-1	0	0.000000	0			icon.skill1068	0	0	0	0	-1	-1
+9101	6	2	0	-1	0	0.000000	0			icon.skill1068	0	0	0	0	-1	-1
+9101	7	2	0	-1	0	0.000000	0			icon.skill1068	0	0	0	0	-1	-1
+9101	8	2	0	-1	0	0.000000	0			icon.skill1068	0	0	0	0	-1	-1
+9101	9	2	0	-1	0	0.000000	0			icon.skill1068	0	0	0	0	-1	-1
+9101	10	2	0	-1	0	0.000000	0			icon.skill1068	0	0	0	0	-1	-1
+9101	11	2	0	-1	0	0.000000	0			icon.skill1068	0	0	0	0	-1	-1
+9101	12	2	0	-1	0	0.000000	0			icon.skill1068	0	0	0	0	-1	-1
+9101	13	2	0	-1	0	0.000000	0			icon.skill1068	0	0	0	0	-1	-1
+9101	14	2	0	-1	0	0.000000	0			icon.skill1068	0	0	0	0	-1	-1
+9101	15	2	0	-1	0	0.000000	0			icon.skill1068	0	0	0	0	-1	-1
+9101	16	2	0	-1	0	0.000000	0			icon.skill1068	0	0	0	0	-1	-1
+9101	17	2	0	-1	0	0.000000	0			icon.skill1068	0	0	0	0	-1	-1
+9101	18	2	0	-1	0	0.000000	0			icon.skill1068	0	0	0	0	-1	-1
+9101	19	2	0	-1	0	0.000000	0			icon.skill1068	0	0	0	0	-1	-1
+9101	20	2	0	-1	0	0.000000	0			icon.skill1068	0	0	0	0	-1	-1
+9102	1	2	0	-1	0	0.000000	0			icon.skill1085	0	0	0	0	-1	-1
+9102	2	2	0	-1	0	0.000000	0			icon.skill1085	0	0	0	0	-1	-1
+9102	3	2	0	-1	0	0.000000	0			icon.skill1085	0	0	0	0	-1	-1
+9102	4	2	0	-1	0	0.000000	0			icon.skill1085	0	0	0	0	-1	-1
+9102	5	2	0	-1	0	0.000000	0			icon.skill1085	0	0	0	0	-1	-1
+9102	6	2	0	-1	0	0.000000	0			icon.skill1085	0	0	0	0	-1	-1
+9102	7	2	0	-1	0	0.000000	0			icon.skill1085	0	0	0	0	-1	-1
+9102	8	2	0	-1	0	0.000000	0			icon.skill1085	0	0	0	0	-1	-1
+9102	9	2	0	-1	0	0.000000	0			icon.skill1085	0	0	0	0	-1	-1
+9102	10	2	0	-1	0	0.000000	0			icon.skill1085	0	0	0	0	-1	-1
+9102	11	2	0	-1	0	0.000000	0			icon.skill1085	0	0	0	0	-1	-1
+9102	12	2	0	-1	0	0.000000	0			icon.skill1085	0	0	0	0	-1	-1
+9102	13	2	0	-1	0	0.000000	0			icon.skill1085	0	0	0	0	-1	-1
+9102	14	2	0	-1	0	0.000000	0			icon.skill1085	0	0	0	0	-1	-1
+9102	15	2	0	-1	0	0.000000	0			icon.skill1085	0	0	0	0	-1	-1
+9102	16	2	0	-1	0	0.000000	0			icon.skill1085	0	0	0	0	-1	-1
+9102	17	2	0	-1	0	0.000000	0			icon.skill1085	0	0	0	0	-1	-1
+9102	18	2	0	-1	0	0.000000	0			icon.skill1085	0	0	0	0	-1	-1
+9102	19	2	0	-1	0	0.000000	0			icon.skill1085	0	0	0	0	-1	-1
+9102	20	2	0	-1	0	0.000000	0			icon.skill1085	0	0	0	0	-1	-1
+9103	1	2	0	-1	0	0.000000	0			icon.skill1086	0	0	0	0	-1	-1
+9103	2	2	0	-1	0	0.000000	0			icon.skill1086	0	0	0	0	-1	-1
+9103	3	2	0	-1	0	0.000000	0			icon.skill1086	0	0	0	0	-1	-1
+9103	4	2	0	-1	0	0.000000	0			icon.skill1086	0	0	0	0	-1	-1
+9103	5	2	0	-1	0	0.000000	0			icon.skill1086	0	0	0	0	-1	-1
+9103	6	2	0	-1	0	0.000000	0			icon.skill1086	0	0	0	0	-1	-1
+9103	7	2	0	-1	0	0.000000	0			icon.skill1086	0	0	0	0	-1	-1
+9103	8	2	0	-1	0	0.000000	0			icon.skill1086	0	0	0	0	-1	-1
+9103	9	2	0	-1	0	0.000000	0			icon.skill1086	0	0	0	0	-1	-1
+9103	10	2	0	-1	0	0.000000	0			icon.skill1086	0	0	0	0	-1	-1
+9103	11	2	0	-1	0	0.000000	0			icon.skill1086	0	0	0	0	-1	-1
+9103	12	2	0	-1	0	0.000000	0			icon.skill1086	0	0	0	0	-1	-1
+9103	13	2	0	-1	0	0.000000	0			icon.skill1086	0	0	0	0	-1	-1
+9103	14	2	0	-1	0	0.000000	0			icon.skill1086	0	0	0	0	-1	-1
+9103	15	2	0	-1	0	0.000000	0			icon.skill1086	0	0	0	0	-1	-1
+9103	16	2	0	-1	0	0.000000	0			icon.skill1086	0	0	0	0	-1	-1
+9103	17	2	0	-1	0	0.000000	0			icon.skill1086	0	0	0	0	-1	-1
+9103	18	2	0	-1	0	0.000000	0			icon.skill1086	0	0	0	0	-1	-1
+9103	19	2	0	-1	0	0.000000	0			icon.skill1086	0	0	0	0	-1	-1
+9103	20	2	0	-1	0	0.000000	0			icon.skill1086	0	0	0	0	-1	-1
+9104	1	2	0	-1	0	0.000000	0			icon.skill1036	0	0	0	0	-1	-1
+9104	2	2	0	-1	0	0.000000	0			icon.skill1036	0	0	0	0	-1	-1
+9104	3	2	0	-1	0	0.000000	0			icon.skill1036	0	0	0	0	-1	-1
+9104	4	2	0	-1	0	0.000000	0			icon.skill1036	0	0	0	0	-1	-1
+9104	5	2	0	-1	0	0.000000	0			icon.skill1036	0	0	0	0	-1	-1
+9104	6	2	0	-1	0	0.000000	0			icon.skill1036	0	0	0	0	-1	-1
+9104	7	2	0	-1	0	0.000000	0			icon.skill1036	0	0	0	0	-1	-1
+9104	8	2	0	-1	0	0.000000	0			icon.skill1036	0	0	0	0	-1	-1
+9104	9	2	0	-1	0	0.000000	0			icon.skill1036	0	0	0	0	-1	-1
+9104	10	2	0	-1	0	0.000000	0			icon.skill1036	0	0	0	0	-1	-1
+9104	11	2	0	-1	0	0.000000	0			icon.skill1036	0	0	0	0	-1	-1
+9104	12	2	0	-1	0	0.000000	0			icon.skill1036	0	0	0	0	-1	-1
+9104	13	2	0	-1	0	0.000000	0			icon.skill1036	0	0	0	0	-1	-1
+9104	14	2	0	-1	0	0.000000	0			icon.skill1036	0	0	0	0	-1	-1
+9104	15	2	0	-1	0	0.000000	0			icon.skill1036	0	0	0	0	-1	-1
+9104	16	2	0	-1	0	0.000000	0			icon.skill1036	0	0	0	0	-1	-1
+9104	17	2	0	-1	0	0.000000	0			icon.skill1036	0	0	0	0	-1	-1
+9104	18	2	0	-1	0	0.000000	0			icon.skill1036	0	0	0	0	-1	-1
+9104	19	2	0	-1	0	0.000000	0			icon.skill1036	0	0	0	0	-1	-1
+9104	20	2	0	-1	0	0.000000	0			icon.skill1036	0	0	0	0	-1	-1
+9105	1	2	0	-1	0	0.000000	0			icon.skill1040	0	0	0	0	-1	-1
+9105	2	2	0	-1	0	0.000000	0			icon.skill1040	0	0	0	0	-1	-1
+9105	3	2	0	-1	0	0.000000	0			icon.skill1040	0	0	0	0	-1	-1
+9105	4	2	0	-1	0	0.000000	0			icon.skill1040	0	0	0	0	-1	-1
+9105	5	2	0	-1	0	0.000000	0			icon.skill1040	0	0	0	0	-1	-1
+9105	6	2	0	-1	0	0.000000	0			icon.skill1040	0	0	0	0	-1	-1
+9105	7	2	0	-1	0	0.000000	0			icon.skill1040	0	0	0	0	-1	-1
+9105	8	2	0	-1	0	0.000000	0			icon.skill1040	0	0	0	0	-1	-1
+9105	9	2	0	-1	0	0.000000	0			icon.skill1040	0	0	0	0	-1	-1
+9105	10	2	0	-1	0	0.000000	0			icon.skill1040	0	0	0	0	-1	-1
+9105	11	2	0	-1	0	0.000000	0			icon.skill1040	0	0	0	0	-1	-1
+9105	12	2	0	-1	0	0.000000	0			icon.skill1040	0	0	0	0	-1	-1
+9105	13	2	0	-1	0	0.000000	0			icon.skill1040	0	0	0	0	-1	-1
+9105	14	2	0	-1	0	0.000000	0			icon.skill1040	0	0	0	0	-1	-1
+9105	15	2	0	-1	0	0.000000	0			icon.skill1040	0	0	0	0	-1	-1
+9105	16	2	0	-1	0	0.000000	0			icon.skill1040	0	0	0	0	-1	-1
+9105	17	2	0	-1	0	0.000000	0			icon.skill1040	0	0	0	0	-1	-1
+9105	18	2	0	-1	0	0.000000	0			icon.skill1040	0	0	0	0	-1	-1
+9105	19	2	0	-1	0	0.000000	0			icon.skill1040	0	0	0	0	-1	-1
+9105	20	2	0	-1	0	0.000000	0			icon.skill1040	0	0	0	0	-1	-1
+9106	1	2	0	-1	0	0.000000	0			icon.skill1303	0	0	0	0	-1	-1
+9106	2	2	0	-1	0	0.000000	0			icon.skill1303	0	0	0	0	-1	-1
+9106	3	2	0	-1	0	0.000000	0			icon.skill1303	0	0	0	0	-1	-1
+9106	4	2	0	-1	0	0.000000	0			icon.skill1303	0	0	0	0	-1	-1
+9106	5	2	0	-1	0	0.000000	0			icon.skill1303	0	0	0	0	-1	-1
+9107	1	2	0	-1	0	0.000000	0			icon.skill1077	0	0	0	0	-1	-1
+9107	2	2	0	-1	0	0.000000	0			icon.skill1077	0	0	0	0	-1	-1
+9107	3	2	0	-1	0	0.000000	0			icon.skill1077	0	0	0	0	-1	-1
+9107	4	2	0	-1	0	0.000000	0			icon.skill1077	0	0	0	0	-1	-1
+9107	5	2	0	-1	0	0.000000	0			icon.skill1077	0	0	0	0	-1	-1
+9108	1	2	0	-1	0	0.000000	0			icon.skill1204	0	0	0	0	-1	-1
+9108	2	2	0	-1	0	0.000000	0			icon.skill1204	0	0	0	0	-1	-1
+9108	3	2	0	-1	0	0.000000	0			icon.skill1204	0	0	0	0	-1	-1
+9108	4	2	0	-1	0	0.000000	0			icon.skill1204	0	0	0	0	-1	-1
+9108	5	2	0	-1	0	0.000000	0			icon.skill1204	0	0	0	0	-1	-1
+9109	1	2	0	-1	0	0.000000	0			icon.skill4093	0	0	0	0	-1	-1
+9109	2	2	0	-1	0	0.000000	0			icon.skill4093	0	0	0	0	-1	-1
+9109	3	2	0	-1	0	0.000000	0			icon.skill4093	0	0	0	0	-1	-1
+9109	4	2	0	-1	0	0.000000	0			icon.skill4093	0	0	0	0	-1	-1
+9109	5	2	0	-1	0	0.000000	0			icon.skill4093	0	0	0	0	-1	-1
+9110	1	2	0	-1	0	0.000000	0			icon.skill0349	0	0	0	0	-1	-1
+9110	2	2	0	-1	0	0.000000	0			icon.skill0349	0	0	0	0	-1	-1
+9110	3	2	0	-1	0	0.000000	0			icon.skill0349	0	0	0	0	-1	-1
+9110	4	2	0	-1	0	0.000000	0			icon.skill0349	0	0	0	0	-1	-1
+9110	5	2	0	-1	0	0.000000	0			icon.skill0349	0	0	0	0	-1	-1
+9110	6	2	0	-1	0	0.000000	0			icon.skill0349	0	0	0	0	-1	-1
+9110	7	2	0	-1	0	0.000000	0			icon.skill0349	0	0	0	0	-1	-1
+9110	8	2	0	-1	0	0.000000	0			icon.skill0349	0	0	0	0	-1	-1
+9110	9	2	0	-1	0	0.000000	0			icon.skill0349	0	0	0	0	-1	-1
+9110	10	2	0	-1	0	0.000000	0			icon.skill0349	0	0	0	0	-1	-1
+9111	1	2	0	-1	0	0.000000	0			icon.skill0373	0	0	0	0	-1	-1
+9111	2	2	0	-1	0	0.000000	0			icon.skill0373	0	0	0	0	-1	-1
+9111	3	2	0	-1	0	0.000000	0			icon.skill0373	0	0	0	0	-1	-1
+9111	4	2	0	-1	0	0.000000	0			icon.skill0373	0	0	0	0	-1	-1
+9111	5	2	0	-1	0	0.000000	0			icon.skill0373	0	0	0	0	-1	-1
+9111	6	2	0	-1	0	0.000000	0			icon.skill0373	0	0	0	0	-1	-1
+9111	7	2	0	-1	0	0.000000	0			icon.skill0373	0	0	0	0	-1	-1
+9111	8	2	0	-1	0	0.000000	0			icon.skill0373	0	0	0	0	-1	-1
+9111	9	2	0	-1	0	0.000000	0			icon.skill0373	0	0	0	0	-1	-1
+9111	10	2	0	-1	0	0.000000	0			icon.skill0373	0	0	0	0	-1	-1
+9111	11	2	0	-1	0	0.000000	0			icon.skill0373	0	0	0	0	-1	-1
+9111	12	2	0	-1	0	0.000000	0			icon.skill0373	0	0	0	0	-1	-1
+9111	13	2	0	-1	0	0.000000	0			icon.skill0373	0	0	0	0	-1	-1
+9111	14	2	0	-1	0	0.000000	0			icon.skill0373	0	0	0	0	-1	-1
+9111	15	2	0	-1	0	0.000000	0			icon.skill0373	0	0	0	0	-1	-1
+9112	1	2	0	-1	0	0.000000	0			icon.skill0371	0	0	0	0	-1	-1
+9112	2	2	0	-1	0	0.000000	0			icon.skill0371	0	0	0	0	-1	-1
+9112	3	2	0	-1	0	0.000000	0			icon.skill0371	0	0	0	0	-1	-1
+9112	4	2	0	-1	0	0.000000	0			icon.skill0371	0	0	0	0	-1	-1
+9112	5	2	0	-1	0	0.000000	0			icon.skill0371	0	0	0	0	-1	-1
+9112	6	2	0	-1	0	0.000000	0			icon.skill0371	0	0	0	0	-1	-1
+9112	7	2	0	-1	0	0.000000	0			icon.skill0371	0	0	0	0	-1	-1
+9112	8	2	0	-1	0	0.000000	0			icon.skill0371	0	0	0	0	-1	-1
+9112	9	2	0	-1	0	0.000000	0			icon.skill0371	0	0	0	0	-1	-1
+9112	10	2	0	-1	0	0.000000	0			icon.skill0371	0	0	0	0	-1	-1
+9112	11	2	0	-1	0	0.000000	0			icon.skill0371	0	0	0	0	-1	-1
+9112	12	2	0	-1	0	0.000000	0			icon.skill0371	0	0	0	0	-1	-1
+9112	13	2	0	-1	0	0.000000	0			icon.skill0371	0	0	0	0	-1	-1
+9112	14	2	0	-1	0	0.000000	0			icon.skill0371	0	0	0	0	-1	-1
+9112	15	2	0	-1	0	0.000000	0			icon.skill0371	0	0	0	0	-1	-1
+9112	16	2	0	-1	0	0.000000	0			icon.skill0371	0	0	0	0	-1	-1
+9112	17	2	0	-1	0	0.000000	0			icon.skill0371	0	0	0	0	-1	-1
+9112	18	2	0	-1	0	0.000000	0			icon.skill0371	0	0	0	0	-1	-1
+9112	19	2	0	-1	0	0.000000	0			icon.skill0371	0	0	0	0	-1	-1
+9112	20	2	0	-1	0	0.000000	0			icon.skill0371	0	0	0	0	-1	-1
+9113	1	1	10	-1	1	1.000000	0	X	skill.moment.110	icon.skill0110	0	0	0	0	8	10
+9113	2	1	10	-1	1	1.000000	0	X	skill.moment.110	icon.skill0110	0	0	0	0	8	10
+9113	3	1	10	-1	1	1.000000	0	X	skill.moment.110	icon.skill0110	0	0	0	0	8	10
+9114	1	2	0	-1	0	0.000000	0			icon.skill0386	0	0	0	0	-1	-1
+9114	2	2	0	-1	0	0.000000	0			icon.skill0386	0	0	0	0	-1	-1
+9114	3	2	0	-1	0	0.000000	0			icon.skill0386	0	0	0	0	-1	-1
+9114	4	2	0	-1	0	0.000000	0			icon.skill0386	0	0	0	0	-1	-1
+9114	5	2	0	-1	0	0.000000	0			icon.skill0386	0	0	0	0	-1	-1
+9114	6	2	0	-1	0	0.000000	0			icon.skill0386	0	0	0	0	-1	-1
+9114	7	2	0	-1	0	0.000000	0			icon.skill0386	0	0	0	0	-1	-1
+9114	8	2	0	-1	0	0.000000	0			icon.skill0386	0	0	0	0	-1	-1
+9114	9	2	0	-1	0	0.000000	0			icon.skill0386	0	0	0	0	-1	-1
+9114	10	2	0	-1	0	0.000000	0			icon.skill0386	0	0	0	0	-1	-1
+9115	1	2	0	-1	0	0.000000	0			icon.skill0387	0	0	0	0	-1	-1
+9115	2	2	0	-1	0	0.000000	0			icon.skill0387	0	0	0	0	-1	-1
+9115	3	2	0	-1	0	0.000000	0			icon.skill0387	0	0	0	0	-1	-1
+9115	4	2	0	-1	0	0.000000	0			icon.skill0387	0	0	0	0	-1	-1
+9115	5	2	0	-1	0	0.000000	0			icon.skill0387	0	0	0	0	-1	-1
+9115	6	2	0	-1	0	0.000000	0			icon.skill0387	0	0	0	0	-1	-1
+9115	7	2	0	-1	0	0.000000	0			icon.skill0387	0	0	0	0	-1	-1
+9115	8	2	0	-1	0	0.000000	0			icon.skill0387	0	0	0	0	-1	-1
+9115	9	2	0	-1	0	0.000000	0			icon.skill0387	0	0	0	0	-1	-1
+9115	10	2	0	-1	0	0.000000	0			icon.skill0387	0	0	0	0	-1	-1
+9116	1	2	0	-1	0	0.000000	0			icon.skill0388	0	0	0	0	-1	-1
+9116	2	2	0	-1	0	0.000000	0			icon.skill0388	0	0	0	0	-1	-1
+9116	3	2	0	-1	0	0.000000	0			icon.skill0388	0	0	0	0	-1	-1
+9116	4	2	0	-1	0	0.000000	0			icon.skill0388	0	0	0	0	-1	-1
+9116	5	2	0	-1	0	0.000000	0			icon.skill0388	0	0	0	0	-1	-1
+9116	6	2	0	-1	0	0.000000	0			icon.skill0388	0	0	0	0	-1	-1
+9116	7	2	0	-1	0	0.000000	0			icon.skill0388	0	0	0	0	-1	-1
+9116	8	2	0	-1	0	0.000000	0			icon.skill0388	0	0	0	0	-1	-1
+9116	9	2	0	-1	0	0.000000	0			icon.skill0388	0	0	0	0	-1	-1
+9116	10	2	0	-1	0	0.000000	0			icon.skill0388	0	0	0	0	-1	-1
+9116	11	2	0	-1	0	0.000000	0			icon.skill0388	0	0	0	0	-1	-1
+9116	12	2	0	-1	0	0.000000	0			icon.skill0388	0	0	0	0	-1	-1
+9116	13	2	0	-1	0	0.000000	0			icon.skill0388	0	0	0	0	-1	-1
+9116	14	2	0	-1	0	0.000000	0			icon.skill0388	0	0	0	0	-1	-1
+9116	15	2	0	-1	0	0.000000	0			icon.skill0388	0	0	0	0	-1	-1
+9117	1	2	0	-1	0	0.000000	0			icon.skill0256	0	0	0	0	-1	-1
+9117	2	2	0	-1	0	0.000000	0			icon.skill0256	0	0	0	0	-1	-1
+9117	3	2	0	-1	0	0.000000	0			icon.skill0256	0	0	0	0	-1	-1
+9117	4	2	0	-1	0	0.000000	0			icon.skill0256	0	0	0	0	-1	-1
+9117	5	2	0	-1	0	0.000000	0			icon.skill0256	0	0	0	0	-1	-1
+9117	6	2	0	-1	0	0.000000	0			icon.skill0256	0	0	0	0	-1	-1
+9117	7	2	0	-1	0	0.000000	0			icon.skill0256	0	0	0	0	-1	-1
+9117	8	2	0	-1	0	0.000000	0			icon.skill0256	0	0	0	0	-1	-1
+9117	9	2	0	-1	0	0.000000	0			icon.skill0256	0	0	0	0	-1	-1
+9117	10	2	0	-1	0	0.000000	0			icon.skill0256	0	0	0	0	-1	-1
+7065	1	3	0	-1	0	0.000000	0			icon.skill4116_new	0	0	0	0	-1	-1

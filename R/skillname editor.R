@@ -105,7 +105,12 @@ name[name == 'Song of Meditation',description := description %>% str_replace("Te
                                                                        "Increases MP Recovery Bonus by 20%, and decreases magic skill MP consumption by 10%.")]
 name[name == 'Song of Champion',description := description %>% str_replace("Temporarily decreases party members' MP consumption/re-use time when using physical skills. Continuous singing consumes additional MP.", 
                                                                        "Decreases MP consumption by 20% and reuse time by 30% for physical/sing/dance skill use.")]
-
+#self buffs
+# Dash
+name[name %in% c('Dash'), description := description %>% 
+       str_replace('Temporary burst of speed. Effect 1.', 'Speed +40 for 15seconds.') %>% 
+       str_replace('Temporary burst of speed. Effect 2.', 'Speed +66 for 15seconds.')
+     ]
 #buffs
 # Magic Barrier
 # name[name %in% c('Iron Will', 'Spirit Barrier', 'Chant of Fire', "The Glory of Pa'agrio", 'Magic Barrier', 'Servitor Magic Shield'), description] %>% unique
@@ -173,19 +178,18 @@ name[name %in% c("Greater Might", "War Chant"), description := description %>%
                        "Increases P. Atk. by 10%.")
 ]
 # Berserker SPirit
-1 %in% 1:124
 name[name %in% c('Berserker Spirit', "The Rage of Pa'agrio"), description] %>% unique
 name[name %in% c('Berserker Spirit', "The Rage of Pa'agrio"), description := description %>%
-       str_replace_all(c("Temporarily reduces P. Def., M. Def. and Evasion while increasing P. Atk., M. Atk., Atk. Spd., Casting Spd. and Speed. Can be used on one's party members. Effect 1." = "Decreases P. Def. by 5%, M. Def. by 10% and Evasion by 2, and increases P. Atk. by 5%, M. Atk. by 10%, Atk. Spd. by 5%, Casting Spd. by 5% and Speed by 5.",
-                         "Temporarily reduces P. Def., M. Def. and Evasion, and increases P. Atk., M. Atk., Atk. Spd., Casting Spd. and Speed. Effect 1."                                       = "Decreases P. Def. by 5%, M. Def. by 10% and Evasion by 2, and increases P. Atk. by 5%, M. Atk. by 10%, Atk. Spd. by 5%, Casting Spd. by 5% and Speed by 5.",
-                         "Temporarily reduces alliance members' P. Def., M. Def. and Evasion, and increases P. Atk., M. Atk., Atk. Spd., Casting Spd. and Speed. Effect 1."                     = "Decreases P. Def. by 5%, M. Def. by 10% and Evasion by 2, and increases P. Atk. by 5%, M. Atk. by 10%, Atk. Spd. by 5%, Casting Spd. by 5% and Speed by 5.",
-                         "Temporarily reduces P. Def., M. Def. and Evasion while increasing P. Atk., M. Atk., Atk. Spd., Casting Spd. and Speed. Can be used on one's party members. Effect 2." = "Decreases P. Def. by 8%, M. Def. by 16% and Evasion by 4, and increases P. Atk. by 8%, M. Atk. by 16%, Atk. Spd. by 8%, Casting Spd. by 8%, and Speed by 8.",
-                         "Temporarily reduces P. Def., M. Def. and Evasion, and increases P. Atk., M. Atk., Atk. Spd., Casting Spd. and Speed. Effect 2."                                       = "Decreases P. Def. by 8%, M. Def. by 16% and Evasion by 4, and increases P. Atk. by 8%, M. Atk. by 16%, Atk. Spd. by 8%, Casting Spd. by 8%, and Speed by 8.",
-                         "Temporarily reduces alliance members' P. Def., M. Def. and Evasion, and increases P. Atk., M. Atk., Atk. Spd., Casting Spd. and Speed. Effect 2."                     = "Decreases P. Def. by 8%, M. Def. by 16% and Evasion by 4, and increases P. Atk. by 8%, M. Atk. by 16%, Atk. Spd. by 8%, Casting Spd. by 8%, and Speed by 8.",
+       str_replace_all(c("Temporarily reduces P. Def., M. Def. and Evasion while increasing P. Atk., M. Atk., Atk. Spd., Casting Spd. and Speed. Can be used on one's party members. Effect 1." = "P. Def. -5%, M. Def. -10%, Evasion -2, P. Atk. +5%, M. Atk. +10%, Atk. Spd. +5%, Casting Spd. +5%, and Speed by +5.",
+                         "Temporarily reduces P. Def., M. Def. and Evasion, and increases P. Atk., M. Atk., Atk. Spd., Casting Spd. and Speed. Effect 1."                                       = "P. Def. -5%, M. Def. -10%, Evasion -2, P. Atk. +5%, M. Atk. +10%, Atk. Spd. +5%, Casting Spd. +5%, and Speed by +5.",
+                         "Temporarily reduces alliance members' P. Def., M. Def. and Evasion, and increases P. Atk., M. Atk., Atk. Spd., Casting Spd. and Speed. Effect 1."                     = "P. Def. -5%, M. Def. -10%, Evasion -2, P. Atk. +5%, M. Atk. +10%, Atk. Spd. +5%, Casting Spd. +5%, and Speed by +5.",
+                         "Temporarily reduces P. Def., M. Def. and Evasion while increasing P. Atk., M. Atk., Atk. Spd., Casting Spd. and Speed. Can be used on one's party members. Effect 2." = "P. Def. -8%, M. Def. -16%, Evasion -4, P. Atk. +8%, M. Atk. +16%, Atk. Spd. +8%, Casting Spd. +8%, and Speed by +8.",
+                         "Temporarily reduces P. Def., M. Def. and Evasion, and increases P. Atk., M. Atk., Atk. Spd., Casting Spd. and Speed. Effect 2."                                       = "P. Def. -8%, M. Def. -16%, Evasion -4, P. Atk. +8%, M. Atk. +16%, Atk. Spd. +8%, Casting Spd. +8%, and Speed by +8.",
+                         "Temporarily reduces alliance members' P. Def., M. Def. and Evasion, and increases P. Atk., M. Atk., Atk. Spd., Casting Spd. and Speed. Effect 2."                     = "P. Def. -8%, M. Def. -16%, Evasion -4, P. Atk. +8%, M. Atk. +16%, Atk. Spd. +8%, Casting Spd. +8%, and Speed by +8.",
                          "Effect 2."                                                                                                                                                            = "",
-                         "Temporarily reduces alliance members' P. Def., M. Def. and Evasion, and increases P. Atk., M. Atk., Atk. Spd., Casting Spd. and Speed."                               = "Decreases P. Def. by 8%, M. Def. by 16% and Evasion by 4, and increases P. Atk. by 8%, M. Atk. by 16%, Atk. Spd. by 8%, Casting Spd. by 8%, and Speed by 8.",
-                         "Temporarily reduces P. Def., M. Def. and Evasion while increasing P. Atk., M. Atk., Atk. Spd., Casting Spd. and Speed. Can be used on one's party members."           = "Decreases P. Def. by 8%, M. Def. by 16% and Evasion by 4, and increases P. Atk. by 8%, M. Atk. by 16%, Atk. Spd. by 8%, Casting Spd. by 8%, and Speed by 8.",
-                         "Temporarily reduces P. Def., M. Def., and Evasion and increases P. Atk., M. Atk., Atk. Spd., Casting Spd., and Speed. Can be used on one's party members."            = "Decreases P. Def. by 8%, M. Def. by 16% and Evasion by 4, and increases P. Atk. by 8%, M. Atk. by 16%, Atk. Spd. by 8%, Casting Spd. by 8%, and Speed by 8.")
+                         "Temporarily reduces alliance members' P. Def., M. Def. and Evasion, and increases P. Atk., M. Atk., Atk. Spd., Casting Spd. and Speed."                               = "P. Def. -8%, M. Def. -16%, Evasion -4, P. Atk. +8%, M. Atk. +16%, Atk. Spd. +8%, Casting Spd. +8%, and Speed by +8.",
+                         "Temporarily reduces P. Def., M. Def. and Evasion while increasing P. Atk., M. Atk., Atk. Spd., Casting Spd. and Speed. Can be used on one's party members."           = "P. Def. -8%, M. Def. -16%, Evasion -4, P. Atk. +8%, M. Atk. +16%, Atk. Spd. +8%, Casting Spd. +8%, and Speed by +8.",
+                         "Temporarily reduces P. Def., M. Def., and Evasion and increases P. Atk., M. Atk., Atk. Spd., Casting Spd., and Speed. Can be used on one's party members."            = "P. Def. -8%, M. Def. -16%, Evasion -4, P. Atk. +8%, M. Atk. +16%, Atk. Spd. +8%, Casting Spd. +8%, and Speed by +8.")
                        )
 ]
 
@@ -215,8 +219,8 @@ name[name %in% c('Haste', 'Servitor Haste', 'Chant of Fury', 'Herb of Atk. Spd.'
 ]
 
 name[str_detect(description, 'M. Atk') & level == 1, name] %>% unique
-name[name %in% c('Empower', 'Bright Servitor', "The Soul of Pa'agrio", 'Scroll of Mystic Empower', 'Herb of Magic', 'Scroll of Empower - Event Use','Empower for Beginners','Holiday Empower', "Master's Blessing - Empower"), description] %>% unique
-name[name %in% c('Empower', 'Bright Servitor', "The Soul of Pa'agrio", 'Scroll of Mystic Empower', 'Herb of Magic', 'Scroll of Empower - Event Use','Empower for Beginners','Holiday Empower', "Master's Blessing - Empower"), description := description %>%
+name[name %in% c('Empower', 'Greater Empower', 'Bright Servitor', "The Soul of Pa'agrio", 'Scroll of Mystic Empower', 'Herb of Magic', 'Scroll of Empower - Event Use','Empower for Beginners','Holiday Empower', "Master's Blessing - Empower"), description] %>% unique
+name[name %in% c('Empower', 'Greater Empower', 'Bright Servitor', "The Soul of Pa'agrio", 'Scroll of Mystic Empower', 'Herb of Magic', 'Scroll of Empower - Event Use','Empower for Beginners','Holiday Empower', "Master's Blessing - Empower"), description := description %>%
        str_replace_all(c("Temporarily increases M. Atk. Effect 1." = "Increases M. Atk. by 55%.",
                          "Temporarily increases M. Atk. Effect 2." = "Increases M. Atk. by 65%.",
                          "Temporarily increases M. Atk.  Effect 3." = "Increases M. Atk. by 75%.",
@@ -408,4 +412,4 @@ name[name == 'Rapid Shot', description := description %>%
 ###
 name %>% 
 #write.table(file = "C:\\Users\\sarun_000\\Desktop 3\\skillname output.txt", quote = FALSE, col.names = FALSE, row.names = FALSE, sep = '\t', na = '')
-write.table(file = "skillname output.txt", quote = FALSE, col.names = FALSE, row.names = FALSE, sep = '\t', na = '')
+write.table(file = "_output skillname.txt", quote = FALSE, col.names = FALSE, row.names = FALSE, sep = '\t', na = '')
